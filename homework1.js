@@ -1,4 +1,4 @@
-
+document.addEventListener('DOMContentLoaded', function () {
 // задача 1 //
 let str = 'abcde';
 alert(str[0]);
@@ -17,3 +17,5 @@ if (age >= 18) {
 } else {
     console.log("Несовершеннолетний");
 }
+
+})
