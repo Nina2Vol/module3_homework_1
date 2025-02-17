@@ -1,21 +1,18 @@
-document.addEventListener('DOMContentLoaded', function () {
-// задача 1 //
+// Задача 1: Вывести символы строки
 let str = 'abcde';
-alert(str[0]);
-lert(str[1]);
-alert(str[4]);
+alert(str[0]); // выведет 'a'
+alert(str[1]); // выведет 'b'
+alert(str[4]); // выведет 'e'
 
-// задача 2 //
-let a = parseInt(prompt("Введите первое число:"));
-let b = parseInt(prompt("Введите второе число:"));
-console.log(a > 0 || b > 0);
-    
-// задача 3 //
-let age = parseInt(prompt("Введите ваш возраст:"));
+// Задача 2: Проверка, что хотя бы одно из двух чисел больше 0
+let a = parseInt(prompt("Задача 2: Введите первое число:"), 10);
+let b = parseInt(prompt("Задача 2: Введите второе число:"), 10);
+console.log("Результат логического выражения (хотя бы одно число > 0):", a > 0 || b > 0);
+
+// Задача 3: Проверка возраста пользователя
+let age = parseInt(prompt("Задача 3: Введите ваш возраст:"), 10);
 if (age >= 18) {
-    console.log("Совершеннолетний");
+  console.log("Совершеннолетний");
 } else {
-    console.log("Несовершеннолетний");
+  console.log("Несовершеннолетний");
 }
-
-})
